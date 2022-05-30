@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #0. install mysql-server
-echo -e "\e[1m\e[32mDInstall mysql-server ... \e[0m" && sleep 1
+echo -e "\e[1m\e[32mInstall mysql-server ... \e[0m" && sleep 1
 sudo apt-get -y install mysql-server
 systemctl start mysql.service
 
