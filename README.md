@@ -14,6 +14,8 @@
 - Automate to install zabbix.
 - Automate to install zabbix-agent2 for docker monitor
 - Automate to config zabbix-agent2
+- Zabbix Host add & Config.
+- Zabbix discord Config.
 
 ---
 
