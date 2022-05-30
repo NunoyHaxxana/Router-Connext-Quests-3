@@ -2,7 +2,8 @@
 
 #0. install mysql-server
 echo -e "\e[1m\e[32mInstall mysql-server ... \e[0m" && sleep 1
-sudo apt-get -y install mysql-server
+apt-get update && apt-get upgrade -y
+apt-get install mysql-server -y
 systemctl start mysql.service
 
 
