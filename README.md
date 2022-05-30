@@ -7,22 +7,13 @@
 - Quest 3 - Alerting system for Routers.
 
 # Briefly describe your project: 
-- Developer shell script to help the user who needs to setup and upgrade a router to last version.  
+- Developer shell script to help the user who needs to monitor server and docker via zabbix 
 
->:black_square_button: Script Automate to install Connext Router by auto detected last version + Auto update last version.<br>
 
 # Detailed project proposal:
-- Automate to install Docker.
-- Automate to install Docker-compose v2.5.1
-- Automate to install nxtp-router.
-- Automate to get & install Latest version.
-- Automate to get & update Latest version.
-- Automate to generate private key.
-- Automate to backup private key.
-- Automate to swith to amarok.
-- Automate to create and config file .env, key.yaml, config.json
-- Automate to delete nxtp-router file and docker-compose.
-
+- Automate to install zabbix.
+- Automate to install zabbix-agent2 for docker monitor
+- Automate to config zabbix-agent2
 
 ---
 
@@ -33,7 +24,7 @@
 >:black_square_button: 8GB RAM<br>
 >:black_square_button: 30GB Storage<br>
 - Need Super user or root for run this script.
-- You can check the current Router version in the https://github.com/connext/nxtp/releases
+
 
 
 ## Clone and Install Scripts
