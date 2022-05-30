@@ -33,3 +33,5 @@
 
 wget -q -O zabbixsetup.sh https://raw.githubusercontent.com/NunoyHaxxana/Router-Connext-Quests-3/main/zabbixsetup.sh && chmod +x zabbixsetup.sh && sudo /bin/bash zabbixsetup.sh
 ```
+
+## Zabbix web config
