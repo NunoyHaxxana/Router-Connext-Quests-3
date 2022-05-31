@@ -69,3 +69,16 @@ with the ability to monitor the operation of various systems Through the use of 
 wget -q -O zabbixsetup.sh https://raw.githubusercontent.com/NunoyHaxxana/Router-Connext-Quests-3/main/zabbixsetup.sh && chmod +x zabbixsetup.sh && sudo /bin/bash zabbixsetup.sh
 ```
 
+1) When install finish, You can watch the hostname and ip for add in zabbix.
+
+Your Hostname for zabbix: connext-router
+
+Your IP Address for zabbix: xxx.xxx.xxx.xxx 
+
+![image](https://user-images.githubusercontent.com/83507970/171265133-03bebedf-030a-4b11-93ce-6169ea6ec50f.png)
+
+
+2) Go to browser and insert ip-address from step 1. ``` xxx.xxx.xxx.xxx/zabbix ```
+
+![page1](https://user-images.githubusercontent.com/83507970/171263786-ed9da25d-bc89-4328-b6ef-5bce583f9ab0.jpg)
+
