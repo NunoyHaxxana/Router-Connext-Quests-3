@@ -78,7 +78,27 @@ Your IP Address for zabbix: xxx.xxx.xxx.xxx
 ![image](https://user-images.githubusercontent.com/83507970/171265133-03bebedf-030a-4b11-93ce-6169ea6ec50f.png)
 
 
-2) Go to browser and insert ip-address from step 1. ``` xxx.xxx.xxx.xxx/zabbix ```
+2) Go to browser and insert ip-address from step 1. ``` xxx.xxx.xxx.xxx/zabbix 
 
 ![page1](https://user-images.githubusercontent.com/83507970/171263786-ed9da25d-bc89-4328-b6ef-5bce583f9ab0.jpg)
+
+
+3) in step Configure DB connextion field Password = ```password```
+
+![image](https://user-images.githubusercontent.com/83507970/171266768-1d17724f-e78d-4755-9860-c120cc296359.png)
+
+4) Insert your zabbix server name. 
+
+![image](https://user-images.githubusercontent.com/83507970/171267002-d7380e66-c12a-4f8a-bfac-ee193d82bd27.png)
+
+5) Fisnish setup your can login with User = ```Admin``` , Password = ```zabbix```
+
+![C1](https://user-images.githubusercontent.com/83507970/171268016-e899f701-802f-4b13-a91f-194a17501865.png)
+
+
+![C2](https://user-images.githubusercontent.com/83507970/171269703-66e39b63-1866-451a-9aff-ea6b9f0cb44f.png)
+
+
+![image](https://user-images.githubusercontent.com/83507970/171270959-a9793933-ceda-4ad7-ab6b-6f8dc925fe73.png)
+
 
