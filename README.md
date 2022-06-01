@@ -96,13 +96,14 @@ Input Zabbix DB Password which must from step 1. to Password field.
 
 
 
-Input Zabbix DB Password from step 1. to Password field.
-Your can input Zabbix server name you like
+
+Your can input Zabbix server name you like.
 ![image](https://user-images.githubusercontent.com/83507970/171500404-32ccb5ee-9843-4dc5-a8ca-5c47dbd29d41.png)
-Click Next step
+Click Next step.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500424-d45811c3-02d7-4613-bdc1-6a9f7e166f39.png)
-Click Finish
+Click Finish.
+
 ---
 
 # Step 3: Zabbix Web.
@@ -183,9 +184,9 @@ The URL should be either an IP address, a fully qualified domain name or localho
 http://xx.xx.xx.xx/zabbix/
 ![image](https://user-images.githubusercontent.com/83507970/171500807-2b12ff1b-2e09-4ee6-984d-0429b2b4a62c.png)
 
+---
 
-
-# 5. Setting up Discord Function
+# Step 5: Setting up Discord Function
 Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘Media types’. Click on the name of menu ‘Discord’.
 ![image](https://user-images.githubusercontent.com/83507970/171500830-72408cd2-3a7e-4208-8a4a-d4d7e7be194a.png)
 
@@ -196,7 +197,7 @@ You need to setup the Parameters “discord_endpoint”, which must contain the 
 
 
 
-6. Setting up User Alert
+# Step :6 Setting up User Alert
 Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘User’. Click on the Username ‘Admin’.
 ![image](https://user-images.githubusercontent.com/83507970/171500864-06018ac2-4873-4f6b-882d-2cc0e4f997f9.png)
 
@@ -207,12 +208,11 @@ Now head back to the Zabbix server dashboard. Click on ‘Administration’ then
 You need to choose the Type “Discord”, and setup the “Send to” which must contain the URL from Your discord Webhook. and Add
 ![image](https://user-images.githubusercontent.com/83507970/171500896-bcfd0634-2e90-4262-8829-836a4b60d063.png)
 ![image](https://user-images.githubusercontent.com/83507970/171500947-75ee3765-319b-4e92-b510-13807053099e.png)
-
-
-
-
 Click Update
-7. Setting up Tigger Alert
+
+---
+
+# Step 7 : Setting up Tigger Alert
 Now head back to the Zabbix server dashboard. Click on ‘Configuration’ then ‘Action’. Click on the menu ‘Trigger actions’. and Click on the menu
 ![image](https://user-images.githubusercontent.com/83507970/171500973-602e1222-9820-45be-832e-63e1f0da74d6.png)
 
@@ -247,7 +247,7 @@ Click Add
 
 ---
 
-# Step 5: Test Alarm and Alert to Discord
+# Step 8: Test Alarm and Alert to Discord
 Test with down docker.
 ![image](https://user-images.githubusercontent.com/83507970/171501067-03de47fd-1d20-4407-8879-849b228ee883.png)
 On zabbix alarm show docker stopped
