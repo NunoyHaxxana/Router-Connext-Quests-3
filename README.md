@@ -128,7 +128,7 @@ Fill in the details of the Docker server such as the hostname name. For Groups, 
 
 Fill in the details of the Templates specify ```Docker by Zabbix agent 2``` and ```Linux by Zabbix agent```
 
-Below the ```Interfaces``` label click on ```Add``` and in the menu that appears select ```Agent```. Next, fill out the server’s private IP address from step 1. and ensure that the port is set to 10055.
+Below the ```Interfaces``` label click on ```Add``` and in the menu that appears select ```Agent```. Next, fill out the server’s private IP address from step 1. and ensure that the port is set to ```10055```.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500628-252867fc-55db-49e0-bc04-07479beeec3f.png)
 
@@ -155,7 +155,7 @@ Click on ```container```
 ![image](https://user-images.githubusercontent.com/83507970/171500708-ed8076ac-c4e9-4fac-9a1d-0414c9783b42.png)
 
 
-You can also view the graphs of the various container metrics by clicking on the ‘graphs’ options of the Docker server on the ‘Hosts’ page. Below you can see the CPU & Memory usage metrics.
+You can also view the graphs of the various container metrics by clicking on the ```graphs``` options of the Docker server on the ```Hosts``` page. Below you can see the CPU & Memory usage metrics.
 ![image](https://user-images.githubusercontent.com/83507970/171500733-325934bd-1296-4a2d-901f-b0333117b846.png)
 
 ---
@@ -198,7 +198,7 @@ You need to setup the Parameters ```discord_endpoint```, which must contain the 
 
 
 # Step :6 Setting up User Alert
-Now head back to the Zabbix server dashboard. Click on ```Administration``` then ‘User’. Click on the Username ```Admin```.
+Now head back to the Zabbix server dashboard. Click on ```Administration``` then ```User```. Click on the Username ```Admin```.
 ![image](https://user-images.githubusercontent.com/83507970/171500864-06018ac2-4873-4f6b-882d-2cc0e4f997f9.png)
 
 ![image](https://user-images.githubusercontent.com/83507970/171500879-f7dc7493-872c-4528-9f82-81e5659a9d20.png)
