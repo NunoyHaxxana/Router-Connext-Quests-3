@@ -75,6 +75,7 @@ sudo systemctl restart zabbix-agent2
 sudo systemctl enable zabbix-agent2
 sleep 3
 
+
 #9. Detail for add server on zabbix
 echo " "
 echo -e "\e[1m\e[32mYour Hostname for zabbix: $(cat $HOME/zabbix/hostname.txt)\e[0m" && sleep 1
