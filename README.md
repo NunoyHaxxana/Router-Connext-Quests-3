@@ -248,7 +248,8 @@ Click Add
 ---
 
 # Step 8: Test Alarm and Alert to Discord
-Test with down docker.
+
+### Test with down docker.
 ![image](https://user-images.githubusercontent.com/83507970/171501067-03de47fd-1d20-4407-8879-849b228ee883.png)
 On zabbix alarm show docker stopped
 
@@ -257,7 +258,7 @@ Alert Problem send to discord
 
 
 
-Test with Start docker.
+### Test with Start docker.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500162-456b834c-1f66-4100-a712-76075ca177de.png)
 On zabbix show alarm Resolved
