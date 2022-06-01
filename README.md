@@ -128,13 +128,13 @@ Fill in the details of the Docker server such as the hostname name. For Groups, 
 
 Fill in the details of the Templates specify ```Docker by Zabbix agent 2``` and ```Linux by Zabbix agent```
 
-Below the ‘Interfaces’ label click on ‘Add’ and in the menu that appears select ‘Agent’. Next, fill out the server’s private IP address from step 1. and ensure that the port is set to 10055.
+Below the ```Interfaces``` label click on ```Add``` and in the menu that appears select ```Agent```. Next, fill out the server’s private IP address from step 1. and ensure that the port is set to 10055.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500628-252867fc-55db-49e0-bc04-07479beeec3f.png)
 
 
 Add Docker Server to Zabbix
-Now head back to the Zabbix server dashboard. Click on ‘Monitoring’ then ‘Hosts’. Click on the name of your Docker server and in the menu option that appears, select ‘Dashboards’.
+Now head back to the Zabbix server dashboard. Click on ```Monitoring``` then ```Hosts```. Click on the name of your Docker server and in the menu option that appears, select ```Dashboards```.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500649-b47d6ee4-ebd9-4348-bb66-ebd0fe4e04c5.png)
 
@@ -143,15 +143,15 @@ After a few minutes, the Zabbix server will detect the container and start popul
 ![image](https://user-images.githubusercontent.com/83507970/171500660-13c28872-04c3-4f52-8e9f-fbab1163e9d8.png)
 
 
-You can also view the graphs of the various server metrics by clicking on the ‘Dashboard’ options of the ‘System performance’ page. Below you can see the CPU & Memory usage metrics.
+You can also view the graphs of the various server metrics by clicking on the ```Dashboard``` options of the ```System performance``` page. Below you can see the CPU & Memory usage metrics.
 ![image](https://user-images.githubusercontent.com/83507970/171500678-267bbca5-4b13-47db-b616-74e7f7e4d1b3.png)
 
 
-Now head back to the Zabbix server dashboard. Click on ‘Monitoring’ then ‘Hosts’. Click on the name of your Docker server and in the menu option that appears, select ‘Latest data’.
+Now head back to the Zabbix server dashboard. Click on ```Monitoring``` then ```Hosts```. Click on the name of your Docker server and in the menu option that appears, select ```Latest data```.
 ![image](https://user-images.githubusercontent.com/83507970/171500695-48c8b3af-8857-4fa6-badc-b0f78cadeeeb.png)
 
 
-Click on ‘container’
+Click on ```container```
 ![image](https://user-images.githubusercontent.com/83507970/171500708-ed8076ac-c4e9-4fac-9a1d-0414c9783b42.png)
 
 
@@ -175,11 +175,11 @@ You can copy Discord webhook URL now or view it later by clicking on Edit button
 
 
 4. Setting up Zabbix Webhook
-Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘General’. Click on the name of menu ‘Macros’.
+Now head back to the Zabbix server dashboard. Click on ```Administration``` then ```General```. Click on the name of menu ```Macros```.
 ![image](https://user-images.githubusercontent.com/83507970/171500786-d511847f-acad-49f9-9425-615e92596f0d.png)
 
 
-You need to setup the global macro “{$ZABBIX.URL}”, which must contain the URL to the Zabbix frontend.
+You need to setup the global macro ```{$ZABBIX.URL}```, which must contain the URL to the Zabbix frontend.
 The URL should be either an IP address, a fully qualified domain name or localhost. Specifying a protocol is mandatory, whereas port is optional.
 http://xx.xx.xx.xx/zabbix/
 ![image](https://user-images.githubusercontent.com/83507970/171500807-2b12ff1b-2e09-4ee6-984d-0429b2b4a62c.png)
@@ -187,18 +187,18 @@ http://xx.xx.xx.xx/zabbix/
 ---
 
 # Step 5: Setting up Discord Function
-Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘Media types’. Click on the name of menu ‘Discord’.
+Now head back to the Zabbix server dashboard. Click on ```Administration``` then ```Media types```. Click on the name of menu ```Discord```.
 ![image](https://user-images.githubusercontent.com/83507970/171500830-72408cd2-3a7e-4208-8a4a-d4d7e7be194a.png)
 
 
 
-You need to setup the Parameters “discord_endpoint”, which must contain the URL from Your discord Webhook. and update
+You need to setup the Parameters ```discord_endpoint```, which must contain the URL from Your discord Webhook. and update
 ![image](https://user-images.githubusercontent.com/83507970/171500843-3085ef57-4ed6-4a8f-9f1b-8880470a9929.png)
 
 
 
 # Step :6 Setting up User Alert
-Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘User’. Click on the Username ‘Admin’.
+Now head back to the Zabbix server dashboard. Click on ```Administration``` then ‘User’. Click on the Username ```Admin```.
 ![image](https://user-images.githubusercontent.com/83507970/171500864-06018ac2-4873-4f6b-882d-2cc0e4f997f9.png)
 
 ![image](https://user-images.githubusercontent.com/83507970/171500879-f7dc7493-872c-4528-9f82-81e5659a9d20.png)
