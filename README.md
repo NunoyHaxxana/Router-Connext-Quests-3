@@ -117,8 +117,8 @@ Pass: zabbix
 ![image](https://user-images.githubusercontent.com/83507970/171500523-aba9450f-b773-491f-b451-a674ad08f396.png)
 
 
-Once you have logged in, navigate to the right sidebar and click on ‘Configuration’ then ‘Hosts’. and At the far top-right corner,
-click on ‘Create host’.
+Once you have logged in, navigate to the right sidebar and click on ```Configuration``` then ```Hosts```. and At the far top-right corner,
+click on ```Create host```.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500549-51b321e5-7447-4c80-8d51-dab29d79bd57.png)
 
