@@ -124,9 +124,9 @@ click on ‘Create host’.
 
 
 
-Fill in the details of the Docker server such as the hostname name. For Groups, Type in ‘Connext’ (every host must be associated with a group).
+Fill in the details of the Docker server such as the hostname name. For Groups, Type in ```Connext``` (every host must be associated with a group).
 
-Fill in the details of the Templates specify ‘Docker by Zabbix agent 2’ and ‘Linux by Zabbix agent’
+Fill in the details of the Templates specify ```Docker by Zabbix agent 2``` and ```Linux by Zabbix agent```
 
 Below the ‘Interfaces’ label click on ‘Add’ and in the menu that appears select ‘Agent’. Next, fill out the server’s private IP address from step 1. and ensure that the port is set to 10055.
 
@@ -205,7 +205,7 @@ Now head back to the Zabbix server dashboard. Click on ‘Administration’ then
 
 
 
-You need to choose the Type “Discord”, and setup the “Send to” which must contain the URL from Your discord Webhook. and Add
+You need to choose the Type ```Discord```, and setup the ```Send to``` which must contain the URL from Your discord Webhook. and Add
 ![image](https://user-images.githubusercontent.com/83507970/171500896-bcfd0634-2e90-4262-8829-836a4b60d063.png)
 ![image](https://user-images.githubusercontent.com/83507970/171500947-75ee3765-319b-4e92-b510-13807053099e.png)
 Click Update
@@ -213,17 +213,17 @@ Click Update
 ---
 
 # Step 7 : Setting up Tigger Alert
-Now head back to the Zabbix server dashboard. Click on ‘Configuration’ then ‘Action’. Click on the menu ‘Trigger actions’. and Click on the menu
+Now head back to the Zabbix server dashboard. Click on ```Configuration``` then ```Action```. Click on the menu ```Trigger actions```. and Click on the menu
 ![image](https://user-images.githubusercontent.com/83507970/171500973-602e1222-9820-45be-832e-63e1f0da74d6.png)
 
 
 
-You need to setup the Name “Discord Alarm”
+You need to setup the Name ```Discord Alarm”```
 ![image](https://user-images.githubusercontent.com/83507970/171500992-4ab145b4-cdf8-4192-875a-17cf7f9f798b.png)
 
 
-Click on ‘Operations’
-You need to setup the Operations Click on ‘Add’
+Click on ```Operations```
+You need to setup the Operations Click on ```Add```
 ![image](https://user-images.githubusercontent.com/83507970/171501006-03fac1bf-0072-4651-becf-c5098a8d7f41.png)
 
 ![image](https://user-images.githubusercontent.com/83507970/171501021-ee091bae-b54b-46ec-a396-7e49390d5396.png)
@@ -231,9 +231,9 @@ You need to setup the Operations Click on ‘Add’
 
 
 You need to setup the Parameters which must contain
-Send to user groups which must contain : Zabbix administrators
-Send to users which must contain : Admin
-Send only to which must contain : Discord
+Send to user groups which must contain : ```Zabbix administrators```
+Send to users which must contain : ```Admin```
+Send only to which must contain : ```Discord```
 
 Make sure your setup all both
 - Operations
