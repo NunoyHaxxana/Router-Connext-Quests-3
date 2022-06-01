@@ -60,9 +60,9 @@ with the ability to monitor the operation of various systems Through the use of 
 >:black_square_button: 30GB Storage<br>
 - Need Super user or root for run this script.
 
+---
 
-
-## Clone and Install Scripts
+#  Step 1. Clone and Install Scripts
 
 ```
 
@@ -78,17 +78,19 @@ Your Hostname for zabbix: xxxxxxx
 Your IP Address for zabbix: xx.xx.xx.xx
 Your Zabbix DB Password: xxxxxxxxxxxxxx
 ```
+---
 
-Step 2: Zabbix Web Config.
+#  Step 2: Zabbix Web Config.
 Go to browser insert ip address which must from step 1.
 
 ```
 http://IP-Address-for-zabbix/zabbix
 ```
 ![image](https://user-images.githubusercontent.com/83507970/171500320-515c39a5-0fbd-44bd-bafd-b708d7aa6d71.png)
+Click Next step.
 
 
-Click Next step
+
 Input Zabbix DB Password which must from step 1. to Password field.
 ![image](https://user-images.githubusercontent.com/83507970/171500352-74d8cb00-00cf-47fa-bae8-b4a13bd133cb.png)
 
@@ -97,18 +99,13 @@ Input Zabbix DB Password which must from step 1. to Password field.
 Input Zabbix DB Password from step 1. to Password field.
 Your can input Zabbix server name you like
 ![image](https://user-images.githubusercontent.com/83507970/171500404-32ccb5ee-9843-4dc5-a8ca-5c47dbd29d41.png)
-
-
-
 Click Next step
 
 ![image](https://user-images.githubusercontent.com/83507970/171500424-d45811c3-02d7-4613-bdc1-6a9f7e166f39.png)
-
-
 Click Finish
+---
 
-
-Step 3: Zabbix Web.
+# Step 3: Zabbix Web.
 To monitor a remote host, you need to add it to the Zabbix server’s dashboard via a browser. Zabbix provides myriad templates for various services and applications. We will link the appropriate template to the Docker host to specifically monitor containers. But first, access the Zabbix server’s login page.
 
 ```
@@ -160,9 +157,9 @@ Click on ‘container’
 You can also view the graphs of the various container metrics by clicking on the ‘graphs’ options of the Docker server on the ‘Hosts’ page. Below you can see the CPU & Memory usage metrics.
 ![image](https://user-images.githubusercontent.com/83507970/171500733-325934bd-1296-4a2d-901f-b0333117b846.png)
 
+---
 
-
-Step 4: Set Alert to Discord
+# Step 4: Set Alert to Discord
 Setting up Discord Webhook
 1. Go to https://discordapp.com/app or open Discord Desktop application. Select your server and channel where you want to get Zabbix notifications.
 
@@ -188,7 +185,7 @@ http://xx.xx.xx.xx/zabbix/
 
 
 
-5. Setting up Discord Function
+# 5. Setting up Discord Function
 Now head back to the Zabbix server dashboard. Click on ‘Administration’ then ‘Media types’. Click on the name of menu ‘Discord’.
 ![image](https://user-images.githubusercontent.com/83507970/171500830-72408cd2-3a7e-4208-8a4a-d4d7e7be194a.png)
 
@@ -247,16 +244,15 @@ Make sure your setup all both
 
 
 Click Add
-Step 5: Test Alarm and Alert to Discord
+
+---
+
+# Step 5: Test Alarm and Alert to Discord
 Test with down docker.
 ![image](https://user-images.githubusercontent.com/83507970/171501067-03de47fd-1d20-4407-8879-849b228ee883.png)
-
-
-
 On zabbix alarm show docker stopped
 
 ![image](https://user-images.githubusercontent.com/83507970/171501086-6117c700-cd99-42b1-b195-2d353cea2338.png)
-
 Alert Problem send to discord
 
 
@@ -264,8 +260,7 @@ Alert Problem send to discord
 Test with Start docker.
 
 ![image](https://user-images.githubusercontent.com/83507970/171500162-456b834c-1f66-4100-a712-76075ca177de.png)
-
 On zabbix show alarm Resolved
-![image](https://user-images.githubusercontent.com/83507970/171500141-a4f358f7-68b2-473b-bdee-d530104ad0e0.png)
 
+![image](https://user-images.githubusercontent.com/83507970/171500141-a4f358f7-68b2-473b-bdee-d530104ad0e0.png)
 Alert Recovery send to discord
