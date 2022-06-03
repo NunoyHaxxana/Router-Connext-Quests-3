@@ -21,7 +21,7 @@ with the ability to monitor the operation of various systems Through the use of 
 - Automate to install zabbix
 - Automate to install zabbix-agent
 - Automate to install zabbix-agent2
-- Automate to create database access for zabbix
+- Automate to create database access for zabbix and gen random password
 - Automate to setup zabbix config file.
 - Setup zabbix Gui.
 - Setup server for monitor
