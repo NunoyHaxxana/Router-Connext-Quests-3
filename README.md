@@ -61,6 +61,19 @@ with the ability to monitor the operation of various systems Through the use of 
 - Need Super user or root for run this script.
 
 ---
+### Example
+![image](https://user-images.githubusercontent.com/83507970/171796794-7eb5e30a-1c52-4af7-b566-e8c43f9412a3.png)
+
+![image](https://user-images.githubusercontent.com/83507970/171797097-b03e0879-3f27-4165-8c05-1c04a1f4ab86.png)
+
+![image](https://user-images.githubusercontent.com/83507970/171797174-d01cc605-8417-4854-b141-1da18b42a9d7.png)
+
+
+
+![image](https://user-images.githubusercontent.com/83507970/171796950-c33a18d2-138f-4195-a5a4-0f8312a3d676.png)
+
+
+---
 
 #  Step 1. Clone and Install Scripts
 
